@@ -46,3 +46,11 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
+
+import nextTranslate from 'next-translate';
+
+export default nextTranslate({
+  // mantieni le tue opzioni esistenti qui
+  // esempio:
+  reactStrictMode: true,
+});
